@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Line Encoding Schemes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Line Encoding Schemes</h1>
+        <input type="text" id="binaryInput" placeholder="Enter binary data (e.g. 101010)">
+        <select id="encodingScheme">
+            <option value="unipolarNRZ">Unipolar NRZ</option>
+            <option value="polarNRZ">Polar NRZ-L</option>
+            <option value="polarNRZI">Polar NRZ-I</option>
+            <option value="polarRZ">Polar RZ</option>
+            <option value="bipolarAMI">Bipolar AMI</option>
+            <option value="pseudoternary">Bipolar Pseudoternary</option>
+            <option value="manchester">Manchester</option>
+            <option value="differentialManchester">Differential Manchester</option>
+            <option value="2b1q">Multilevel 2B1Q</option>
+            <option value="mlt3">MLT-3</option>
+        </select>
+        <button id="encodeButton">Encode</button>
+        <div id="result"></div>
+        <canvas id="visualization" width="600" height="200"></canvas>
+    </div>
+    <h2>----By Code Crafter😊.</h2>
+    <script src="script.js"></script>
+</body>
+</html>
